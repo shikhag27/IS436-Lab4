@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
+    <title>UMBC Information Systems</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body class="p-3 m-0 border-0 bd-example">
@@ -30,10 +31,8 @@
                 Program
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="program.html">Undergraduate</a></li>
-                <li><a class="dropdown-item" href="program.html">Graduate</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="program.html">Something else here</a></li>
+                <li><a class="dropdown-item" href="undergrad.html">Undergraduate</a></li>
+                <li><a class="dropdown-item" href="grad.html">Graduate</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -44,14 +43,17 @@
         </div>
       </div>
     </nav>
+
+
    <!-- body Code -->
     <div class="px-4 pt-5 my-5 text-center border-bottom">
-      <h1 class="display-4 fw-bold text-body-emphasis">Welcome to Department of Information Systems</h1>
+      <h1 class="display-4 fw-bold text-body-emphasis">Welcome to UMBC Information Systems Department </h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <p class="lead mb-4">The University of Maryland, Baltimore County is well known for its leading Information Systems Undergraduate and Graduate progams. 
+                              Click on the buttons below to learn more about Undergraduate and Graduate classes and other information. </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <button type="button" class="btn btn-warning btn-lg px-4 me-sm-3">Program</button>
-          <button type="button" class="btn btn-dark btn-lg px-4">Contact Us</button>
+          <button type="button" class="btn btn-warning btn-lg px-4 me-sm-3" href="undergrad.html">Undergraduate IS Program</button>
+          <button type="button" class="btn btn-warning btn-lg px-4 me-sm-3" href="grad.html">Graduate IS Program</button>
         </div>
       </div>
      
@@ -64,12 +66,11 @@
           
           <div class="card">
             <div class="card-header">
-              Featured
+              Recent Research
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Artificial Intelligence and Machine Learning </h5>
+              <p class="card-text">Our academic department is on the cutting edge of the newest technology development. </p>
             </div>
           </div>
         </div>
@@ -77,12 +78,11 @@
           
           <div class="card">
             <div class="card-header">
-              Featured
+              Course Catalog 
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Fall 2023 Upcoming Courses</h5>
+              <p class="card-text">There are a number of new and interesting classes being offered this upcoming semester. </p>
             </div>
           </div>
         </div>
@@ -90,18 +90,47 @@
           
           <div class="card">
             <div class="card-header">
-              Featured
+              Staff
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Learn more about our deparment professors. </h5>
+              <p class="card-text">Many great professors from around the world are apart of our department team. </p>
             </div>
           </div>
+
         </div>
       </div>
-    
     </div>
+
+    <p style="padding: 30px; margin: 30px;"> </p>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="building.jpeg" class="d-block w-100" alt="..." height="700px">
+        </div>
+        <div class="carousel-item">
+          <img src="campus.jpeg" class="d-block w-100" alt="..." height="700px">
+        </div>
+        <div class="carousel-item">
+          <img src="umbc.jpeg" class="d-block w-100" alt="..." height="700px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
 <!-- Footer Code -->
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
       <div class="row">
